@@ -1,9 +1,9 @@
-﻿"use client";
-import { Navbar } from "@/components/navbar"
+﻿import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { PropertyCard } from "@/components/property-card"
 import { properties } from "@/lib/data"
 
+// Updated for deployment
 export const metadata = {
   title: "Stays | Travastays",
   description: "Browse our collection of premium urban homes and find your perfect stay.",
