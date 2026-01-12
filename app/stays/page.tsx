@@ -1,12 +1,9 @@
+'use client';  // ← ADD THIS LINE AT THE TOP
+
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { StaysGrid } from "@/components/stays/stays-grid-robust"
 import { StaysFilters } from "@/components/stays/stays-filters"
-
-export const metadata = {
-  title: "Stays | Travastays",
-  description: "Browse our collection of premium urban homes and find your perfect stay.",
-}
 
 export default function StaysPage() {
   return (
