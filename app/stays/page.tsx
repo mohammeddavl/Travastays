@@ -1,4 +1,4 @@
-import { Navbar } from "@/components/navbar"
+﻿import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { PropertyCard } from "@/components/property-card"
 import { properties } from "@/lib/data"
