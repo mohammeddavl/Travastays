@@ -8,7 +8,7 @@ import { properties } from "@/lib/data"
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 import { cn } from "@/lib/utils"
 
-export function FeaturedStays() {
+export default function FeaturedStays() {
   const featured = properties.slice(0, 3)
   const { ref: sectionRef, isVisible } = useScrollAnimation<HTMLElement>()
 
