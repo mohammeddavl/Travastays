@@ -1,13 +1,9 @@
 ﻿"use client";
-import { Navbar } from "@/components/navbar"
-import { Footer } from "@/components/footer"
-import { PropertyCard } from "@/components/property-card"
-import { properties } from "@/lib/data"
 
-export const metadata = {
-  title: "Stays | Travastays",
-  description: "Browse our collection of premium urban homes and find your perfect stay.",
-}
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
+import PropertyCard from "@/components/property-card";
+import { properties } from "@/lib/data";
 
 function StaysGrid() {
   return (
@@ -16,7 +12,7 @@ function StaysGrid() {
         <PropertyCard key={property.id} {...property} />
       ))}
     </div>
-  )
+  );
 }
 
 export default function StaysPage() {
@@ -42,5 +38,5 @@ export default function StaysPage() {
       </main>
       <Footer />
     </>
-  )
+  );
 }
